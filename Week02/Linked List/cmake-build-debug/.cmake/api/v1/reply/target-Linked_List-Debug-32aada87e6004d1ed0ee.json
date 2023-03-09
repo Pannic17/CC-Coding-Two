@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Linked_List.exe"
-		},
-		{
-			"path" : "Linked_List.pdb"
+			"path" : "Linked_List"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0"
 				},
 				{
 					"fragment" : "-std=gnu++11"
@@ -72,16 +69,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Linked_List",
-	"nameOnDisk" : "Linked_List.exe",
+	"nameOnDisk" : "Linked_List",
 	"paths" : 
 	{
 		"build" : ".",
